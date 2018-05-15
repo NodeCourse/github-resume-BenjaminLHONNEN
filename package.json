@@ -1,0 +1,25 @@
+{
+  "name": "github-resume-benjaminlhonnen",
+  "version": "1.0.0",
+  "description": "The purpose of this application is to display a GitHub user's profile as a resume.\r The idea is to have a home page with an input allowing users to fill in their username.\r When the form is submitted, the user is redirected and his resume is displayed.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeCourse/github-resume-BenjaminLHONNEN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeCourse/github-resume-BenjaminLHONNEN/issues"
+  },
+  "homepage": "https://github.com/NodeCourse/github-resume-BenjaminLHONNEN#readme"
+}

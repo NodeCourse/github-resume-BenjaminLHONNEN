@@ -1,0 +1,14 @@
+html
+    head
+        title BenJ
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        main.flex
+            div
+                img(src=user.avatar_url)
+            div
+                h1 #{user.name}
+                p Date de Création : #{user.created_at}
+                p Bio : #{user.bio}
+                p Localisation : #{user.location}
+        a(href="/") Retourner à l'accueil !
